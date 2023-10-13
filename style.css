@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: grey;
+}
+
+.main-area {
+    min-width: 600px;
+    background-color: whitesmoke;
+    margin: 4rem;
+    padding: 0 2.5rem 0 2.5rem;
+    box-shadow: 1px 1px 15px;
+}
+
+.initials-container {
+    width: 15%;
+    height: 120px;
+    background-color: #436975;
+    position: relative;
+    text-align: center;
+}
+
+h1 {
+    position: relative;
+    top: 25px;
+    left: 5px;
+    font-size: 3rem;
+    color: white;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.4rem;
+}
+
+.name
+h2 {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-top: 2rem;
+    letter-spacing: 0.3rem;
+    color: #436975;
+}
+
+.contact-container {
+    line-height: 2rem;
+}
+
+
+.contact-paper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.contact-paper h3 {
+    margin-left: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+main li {
+    margin: 0 0 0 2rem;
+    line-height: 2rem;
+}
+
+hr {
+    margin: 1rem 0 1rem 0;
+}
+
+h4 {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #436975;
+}
+
+.profile-p {
+    margin: 6rem 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.skills-p {
+    margin: 5rem 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.skills-p-part {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between; 
+}
+
+.experience-p {
+    margin: 7rem 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.experience-sub-p {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.experience-ul {
+    margin-top: 1rem;
+}
+
+.cert-p {
+    margin: 6rem 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.edu-p {
+    margin: 6rem 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.edu-sub-p {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+h5 {
+    margin-top: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.lang-p {
+    margin: 6rem 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: underline;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #436975;
+    text-decoration: underline;
+}
+
+/*media queries*/
+
+@media only screen and (max-width: 1200px) {
+    header {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .skills-p-part {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .contact-container {
+        margin-top: 1rem;
+    }
+
+    .main-area {
+        min-width: 700px;
+        margin: 40px 0 40px 0;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    .main-area {
+        min-width: 700px;
+        margin: 40px 0 40px 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .main-area {
+        min-width: 700px;
+        margin: 40px 0 40px 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .main-area {
+        min-width: 700px;
+        margin: 40px 0 40px 0;
+    }
+}
